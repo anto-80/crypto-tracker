@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# CRYPTO-TRACKER
+Crypto-tracker tracks the top 10 trending cryptocurrencies.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Competencies
 
-## Available Scripts
+\#JF 3:3
 
-In the project directory, you can run:
+  * Understands how to develop effective user interfaces.
 
-### `npm start`
+  * The cryptotracker interface has a carousel that shows all the bitcoin, current prices and whether it lost value or gained.Another feature is a table format, that also opens up a single page with all the information regarding the particular coin selected.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+\#JF 4:5
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * Is able to build, manage and deploy code into the relevant environment.
 
-### `npm test`
+  * This project was built in React and deployed to heroku.Its managed by using heroku cli when *i want to update any changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * [Introduction](#Introduction)
+  * [Demo](#Demo)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * [Technologies](#Technologies)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * [Setup](#Setup)
 
-### `npm run eject`
+  * [Features](#Features)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  * [Contact](#Contact)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ---
+  
+  # Introduction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  The crypto-tracker project was a solution to finding a way to keep tracker of my favorite cryptocurrencies2, in one webpage app. This was achieved using React, and axios making api calls to coinGecko api(which has a listing of all cryptocurrencies with uptodate pricing).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ---
 
-## Learn More
+  # Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <https://crypto-sleuth.herokuapp.com/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ---
 
-### Code Splitting
+  # Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  * React - version 17.0.2
+  * Axios - version 0.26.1
+  * CoinGecko API
+  * React alice carousel - version 2.5.1
+  * Dompurify - version 2.3.6
+  * React router Dom - version 6.2.2
 
-### Analyzing the Bundle Size
+  ---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  # Setup
 
-### Making a Progressive Web App
+  ```
+  $ cd ../cryptoclone
+  $ npm install
+  $ npm start
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  ---
 
-### Advanced Configuration
+  # Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  * carousel of all the cryptocurrencies with price
 
-### Deployment
+  * Table of all cryptocurrencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  * Single page with all of the info of a single cryptocurrency
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To-do:
+
+ * Add a search input to find cryptocurrencies by name
+
+ * Add cryptocurrencies news feed using a streaming service or socket.io
+
+ ---
+
+ # Contact
+
+ 
+<www.anto-80.githubpages.io>
